@@ -4,5 +4,7 @@ body {
 
 #nachoLogo {
     background-image: url('img/logo.png');
-    background-size: 50%;
+    width: 44px;
+    height: 42px;
+    background-size: 100%;
 }
