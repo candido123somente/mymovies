@@ -1,7 +1,7 @@
 body {
     background-color: #fffafa;
 }
-
+/* NAVBAR */ 
 #menuNavbar {
     background-color: #800080;
 }
@@ -14,20 +14,6 @@ body {
     background-size: 100%;
 }
 
-#footerJumbotron {
-    background-color: #800080;
-    position: static;
-    text-align: center;
-}
-
-#footerJumbotron a{
-    font-size: 15px;
-    text-decoration: none;
-    color:white;
-    text-shadow: 0.5px 0.5px #111111;
-}
-
-
 .form-control {
     min-width:300px;  
     max-width:300px;  
@@ -36,3 +22,75 @@ body {
 .btn {
     min-width:70px;
 }
+
+/* END NAVBAR */
+
+/* FOOTER */
+
+footer {
+    background-color: #800080;
+}
+
+#footerArea {
+    text-align: center;
+
+}
+
+
+#footerLogo {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fffafa;
+}
+
+#footerLogo img {
+    width: 80px;
+    margin: auto;
+}
+
+
+.contact-box {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fffafa;
+}
+
+.contact-box i {
+    color: #fffafa;
+    border: solid 1px #fffafa;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}  
+
+.contact-box p {
+    font-size: 16px;
+    color: #fffafa;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #49acbb;
+}
+
+#copyArea {
+    text-align: center;
+    color: #fffafa;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#copyArea a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fffafa;
+}
+
+
+/* END FOOTER */
+
