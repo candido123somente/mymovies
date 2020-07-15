@@ -25,6 +25,23 @@ body {
 
 /* END NAVBAR */
 
+
+/* CARDS */
+
+#firstCard {
+    height: 190px;
+}
+
+#secondCard {
+    height: 190px;
+}
+
+#thirdCard {
+    height: 190px;
+}
+
+/* END CARDS */
+
 /* FOOTER */
 
 footer {
