@@ -28,30 +28,27 @@ body {
 /* FOOTER */
 
 footer {
+    position: relative;
     background-color: #800080;
+    bottom: 0;
 }
 
 #footerArea {
     text-align: center;
-
 }
 
 
 #footerLogo {
     padding: 20px;
-    margin-bottom: 10px;
     border-bottom: 1px solid #fffafa;
 }
 
 #footerLogo img {
-    width: 80px;
-    margin: auto;
+    width: 60px;
 }
 
 
 .contact-box {
-    padding: 5px;
-    margin-bottom: 10px;
     border-bottom: 1px solid #fffafa;
 }
 
@@ -59,17 +56,15 @@ footer {
     color: #fffafa;
     border: solid 1px #fffafa;
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    font-size: 24px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
 
 }  
 
 .contact-box p {
-    font-size: 16px;
+    font-size: 14px;
     color: #fffafa;
 }
 
@@ -79,10 +74,10 @@ footer {
 }
 
 #copyArea {
+    font-size: 14px;
     text-align: center;
     color: #fffafa;
     margin-bottom: 0;
-    padding: 5px;
 }
 
 #copyArea a{
