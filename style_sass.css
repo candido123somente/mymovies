@@ -50,6 +50,10 @@ body {
 
 /* END NAVBAR SEARCH */
  
+#navbarSite{
+    max-width: 220px;
+}
+
 /* END NAVBAR */
 
 /* FOOTER */
