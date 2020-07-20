@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap local file -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style_sass.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style_sass.css">
     <title>My Films List</title>
   </head>
   <body>
 
     <div class="container-fluid px-0 mb-5">   <!-- Menu container start -->
 
-      <header class="navbar navbar-expand-md navbar-dark shadow-sm py-0 fixed-top" id="menuNavbar"> <!-- Header navbar start -->
-        
+      <div class="navbar navbar-expand-md navbar-dark shadow-sm py-0 fixed-top" id="menuNavbar"> <!-- Header navbar start -->
+
         <a class="navbar-brand" href="#"> <div id="nachoLogo"></div> </a> 
 
-        <form class="form-inline mx-auto position-relative">
+        <form class="form-inline mx-auto">
           <input class="form-control form-control-sm" type="text" placeholder="Search..." id="formSearch"> 
           <button class="btn btn-sm" type="submit" id="formSearchButton">
             <i class="fa fa-search"></i>
           </button>
         </form> 
 
-        <div class="collapse navbar-collapse order-1 w-auto" id="navbarSite">  
-
-          <ul class="navbar-nav ml-auto text-center">
+        <div class="collapse navbar-collapse order-1" id="navbarSite">  
+          <br>
+          <ul class="navbar-nav ml-auto text-left" id="menuLinks">
             <li class="nav-item">
               <a class="nav-link active" href="#">Home</a>
             </li>
@@ -47,7 +47,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-     </header> <!-- End of header -->
+
+      </div> <!-- End of header -->
       
     </div>   <!-- end of Menu container div -->
     
