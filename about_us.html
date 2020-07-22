@@ -59,42 +59,51 @@
     <div class="row pt-3">
         <div class="col-md-4">
           <h3 class="text-center mb-4">The team</h3>
-          <img src="img/mclovin.png" class="img-fluid">
+          <div class="card">
+            <img class="card-img-top" src="img/mclovin.png">
+            <div class="card-body d-flex flex-column">
+  
+              <h4 class="card-title"> Cândido Ferreira</h4>
+              <p class="card-text">Web developer and film lover, who create this page.</p>
+    
+            </div>
+          </div>
        </div>
 
        <div class="col-md-4">
         <h3 class="text-center mb-4">Who am I</h3>
-      <p> I am a person who blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla </p>
+      <p class="text-center"> I am a person who blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla blablabla blabla bla blablabla </p>
        </div>
 
        <div class="col-md-4">
         <h3 class="text-center mb-4">Get in touch</h3>
         <form>
 
-          <div class="form-group">
-            <label for="nameInput">Name</label>
+          <div class="form-group mb-3">
+            <label for="nameInput" class="mb-0 ml-2">Name</label>
             <input type="text" class="form-control" id="nameInput">
           </div>
 
-          <div class="form-group">
-            <label for="emailInput">E-mail</label>
+          <div class="form-group mb-3">
+            <label for="emailInput" class="mb-0 ml-2">E-mail</label>
             <input type="email" class="form-control" id="emailInput">
           </div>
 
-          <div class="form-group">
-            <label for="subjectInput">Subject</label>
+          <div class="form-group mb-3">
+            <label for="subjectInput" class="mb-0 ml-2">Subject</label>
             <input type="text" class="form-control" id="subjectInput">
           </div>
 
-          <div class="form-group">
-            <label for="messageInput">Message</label>
-            <textarea type="text" class="form-control" id="messageInput" rows="5"> 
-            </textarea>
+          <div class="form-group mb-3">
+            <label for="messageInput" class="mb-0 ml-2">Message</label>
+            <textarea type="text" class="form-control" id="messageInput" rows="5"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-dark">
+          <div class="col-lg-12 text-center mt-3">
+          <button type="submit" class="btn btn-dark m-0" id="contactSubmit">
             Submit
           </button>
+        </div>
 
         </form>
        </div>
