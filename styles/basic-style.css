@@ -13,12 +13,13 @@ body {
 
 /* NAVBAR */ 
 #menuNavbar {
+    border-color: blue;
     background-color: #800080;
 }
 
 #nachoLogo {
     clear: both;
-    background-image: url('img/logo.png');
+    background-image: url("../img/logo.png");
     width: 40px;
     height: 38px;
     background-size: 100%;
@@ -64,20 +65,14 @@ body {
     max-width: 220px;
 }
 
-/* END NAVBAR */
-
-/* LIST */
-
-#listCreator {
-    height: 500px;
-    background-color: rgba(0, 0, 0, 20%);
-    border-radius: 10px;
-
+@media (max-width: 768px) {
+    #navbarSite{
+        max-width: 100%;
+        margin-top: 10px;
+    }
 }
 
-
-
-/* END LIST */
+/* END NAVBAR */
 
 
 /* FOOTER */
@@ -143,52 +138,3 @@ footer {
 
 /* END FOOTER */
 
-/* ABOUT US */
-
-#nameInput {
-    border-color: #afafaf;
-    border-radius: 15px;
-}
-
-#nameInput:focus {
-    box-shadow: none;
-    border-color: #777777;
-}
-
-#emailInput {
-    border-color: #afafaf;
-    border-radius: 15px;
-}
-
-#emailInput:focus {
-    box-shadow: none;
-    border-color: #777777;
-}
-
-#subjectInput {
-    border-color: #afafaf;
-    border-radius: 15px;
-}
-
-#subjectInput:focus {
-    box-shadow: none;
-    border-color: #777777;
-}
-
-#messageInput {
-    border-color: #afafaf;
-    border-radius: 15px;
-}
-
-#messageInput:focus {
-    box-shadow: none;
-    border-color: #777777;
-}
-
-
-
-#contactSubmit:focus {
-    box-shadow: none;
-}
-
-/* END ABOUT US */

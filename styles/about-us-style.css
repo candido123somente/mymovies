@@ -1,0 +1,49 @@
+/* ABOUT US */
+
+#nameInput {
+    border-color: #afafaf;
+    border-radius: 15px;
+}
+
+#nameInput:focus {
+    box-shadow: none;
+    border-color: #777777;
+}
+
+#emailInput {
+    border-color: #afafaf;
+    border-radius: 15px;
+}
+
+#emailInput:focus {
+    box-shadow: none;
+    border-color: #777777;
+}
+
+#subjectInput {
+    border-color: #afafaf;
+    border-radius: 15px;
+}
+
+#subjectInput:focus {
+    box-shadow: none;
+    border-color: #777777;
+}
+
+#messageInput {
+    border-color: #afafaf;
+    border-radius: 15px;
+}
+
+#messageInput:focus {
+    box-shadow: none;
+    border-color: #777777;
+}
+
+
+
+#contactSubmit:focus {
+    box-shadow: none;
+}
+
+/* END ABOUT US */
