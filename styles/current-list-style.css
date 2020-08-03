@@ -8,27 +8,41 @@
 /* PAGE UP BUTTON */
 
 #button_up {
-    background: #004e0a none repeat scroll 0 0;
+    background: #0f0f0f none repeat scroll 0 0;
     border-radius: 3px;
-    bottom: 50px;
-    cursor: pointer;
-    height: 40px;
-    position: fixed;
-    right: 30px;
-    text-align: center;
-    width: 40px;
+    width: 6vh;
+    height: 6vh;
     z-index: 999;
-    transition: all 0.5s ease-out;
+    transition: all 500ms ease-out;
+    text-align: center;
+    bottom: 4%;
+    right: 3%;
+    cursor: pointer;
+    position: fixed;
+    opacity: 0.75; 
+    vertical-align: middle;
 }
 
 #button_up:hover {
-    background: #2dc534;
+    background: #e0e0e0;
+    width: 6.2vh;
+    height: 6.2vh;
+    line-height: ;
+    opacity: 0.75;
+    vertical-align: middle;
+    box-shadow: 0 0 10px 3px  #272727;
 }
 
 #button_up i {
-    color: #fff;
-    font-size: 24px;
-    line-height: 38px;
+    color: #e0e0e0;
+    font-size: 4.5vh;
+    line-height: 6vh;
+}
+
+#button_up:hover i {
+    color: #0f0f0f;
+    font-size: 6vh;
+    line-height: 6.2vh;
 }
 
 .invisible {

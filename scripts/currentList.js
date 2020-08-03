@@ -5,10 +5,10 @@
     main_wind.on("scroll", function () {
         var consultScroll = $(".scroll_up");
         if ($(this).scrollTop() > 300) {
-            consultScroll.fadeIn();
+            consultScroll.fadeIn(350);
             consultScroll.removeClass("invisible");
         } else {
-            consultScroll.fadeOut();
+            consultScroll.fadeOut(350);
         }
     });
 
