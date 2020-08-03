@@ -1,10 +1,39 @@
 /* LIST */
 
-#listCreator {
-    height: 500px;
-    background-color: rgba(0, 0, 0, 20%);
-    border-radius: 10px;
 
-}
+
 
 /* END LIST */
+
+/* PAGE UP BUTTON */
+
+#button_up {
+    background: #004e0a none repeat scroll 0 0;
+    border-radius: 3px;
+    bottom: 50px;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+}
+
+#button_up:hover {
+    background: #2dc534;
+}
+
+#button_up i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.invisible {
+    visibility: hidden;
+    display: none;
+}
+
+/* END PAGE UP BUTTON */
