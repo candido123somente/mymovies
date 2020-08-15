@@ -1,13 +1,22 @@
 /* LIST */
+#header-fixed {
+    position: fixed;
+    top: 0px; 
+    display: none;
+    background-color:#f9f9f9;
+}
 
 #current-list {
     cursor: default;
 }
 
-
 #thead-checkbox {
     text-align: center;
     width: 10%;
+}
+
+#thead-checkbox i{
+    cursor: pointer;
 }
 
 #thead-name {
@@ -15,14 +24,29 @@
     width: 40%;
 }
 
+#thead-name i{
+    margin-left: -20px;
+    cursor: pointer;
+}
+
 #thead-director {
     text-align: center;
     width: 35%;
 }
 
+#thead-director i{
+    margin-left: -20px;
+    cursor: pointer;
+}
+
 #thead-year {
     text-align: center;
     width: 15%;
+}
+
+#thead-year i{
+    margin-left: -20px;
+    cursor: pointer;
 }
 
 #tbody-checkbox {
@@ -74,7 +98,7 @@
     background: #e0e0e0;
     width: 6.2vh;
     height: 6.2vh;
-    line-height: ;
+    line-height: 6.2vh;
     opacity: 0.75;
     vertical-align: middle;
     box-shadow: 0 0 10px 3px #272727;

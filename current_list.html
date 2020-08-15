@@ -59,18 +59,32 @@
 
   </div> <!-- end of Menu container div -->
 
+  <!-- Content container -->
+  <div class="container py-2 px-0 mx-auto mt-1" id="contentContainer">
 
-  <div class="container py-2 px-0 mx-auto mt-2" id="contentContainer">
-    <!-- Content container -->
-
+    <form class="m-2">
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <button type="submit" class="btn btn-primary">Add to list</button>
+      </div>
+    </form>
+    
     <div class="table-responsive-md">
       <table class="table table-hover" id="current-list">
         <thead>
           <tr>
             <th scope="col" id="thead-checkbox"><i class="fa fa-check"></i></th>
-            <th scope="col" id="thead-name">Name</th>
-            <th scope="col" id="thead-director">Director</th>
-            <th scope="col" id="thead-year">Year</th>
+            <th scope="col" id="thead-name"><i class="fa fa-angle-down"></i> Name</th>
+            <th scope="col" id="thead-director"><i class="fa fa-angle-down"></i> Director</th>
+            <th scope="col" id="thead-year"><i class="fa fa-angle-down"></i> Year</th>
           </tr>
         </thead>
         <tbody>
@@ -212,12 +226,12 @@
             <td id="tbody-director">James Cameron</td>
             <td id="tbody-year">1997</td>
           </tr>
-          
          
 
 
         </tbody>
       </table>
+      <table id="header-fixed"></table>
     </div>
 
 
