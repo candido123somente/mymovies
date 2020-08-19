@@ -12,11 +12,6 @@ body {
 
 
 /* NAVBAR */
-#menuNavbar {
-    border-color: blue;
-    background-color: #800080;
-}
-
 #nachoLogo {
     clear: both;
     background-image: url("../img/logo.png");
@@ -78,32 +73,11 @@ body {
 
 /* FOOTER */
 
-footer {
-    background-color: #800080;
-    margin-top: auto;
-}
-
-#footerArea {
-    text-align: center;
-}
-
-
-#footerLogo {
-    padding: 20px;
-    border-bottom: 1px solid #fffafa;
-}
-
 #footerLogo img {
     width: 60px;
 }
 
-
-.contact-box {
-    border-bottom: 1px solid #fffafa;
-}
-
 .contact-box i {
-    color: #fffafa;
     border: solid 1px #fffafa;
     border-radius: 50%;
     width: 45px;
@@ -115,26 +89,10 @@ footer {
 
 .contact-box p {
     font-size: 14px;
-    color: #fffafa;
-}
-
-.contact-title {
-    font-weight: bold;
-    color: #49acbb;
 }
 
 #copyArea {
     font-size: 14px;
-    text-align: center;
-    color: #fffafa;
-    margin-bottom: 0;
 }
-
-#copyArea a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #fffafa;
-}
-
 
 /* END FOOTER */
