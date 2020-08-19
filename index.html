@@ -1,61 +1,69 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap local file -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/basic-style.css">
-    <title>My Films List</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <div class="container-fluid px-0 mb-5">   <!-- Menu container start -->
+  <!-- Bootstrap local file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/basic-style.css">
+  <title>My Films List</title>
+</head>
 
-      <div class="navbar navbar-expand-md navbar-dark shadow-sm py-1 fixed-top bg-danger" id="menuNavbar"> <!-- Header navbar start -->
+<body>
 
-        <a class="navbar-brand" href="index.html"> <div id="nachoLogo"></div> </a> 
+  <div class="container-fluid px-0 mb-5">
+    <!-- Menu container start -->
 
-        <form class="form-inline mx-auto">
-          <input class="form-control form-control-sm" type="text" placeholder="Search..." id="formSearch"> 
-          <button class="btn btn-sm" type="submit" id="formSearchButton">
-            <i class="fa fa-search"></i>
-          </button>
-        </form> 
+    <div class="navbar navbar-expand-md navbar-dark shadow-sm py-1 fixed-top bg-danger" id="menuNavbar">
+      <!-- Header navbar start -->
 
-        <div class="collapse navbar-collapse order-1" id="navbarSite">  
+      <a class="navbar-brand" href="index.html">
+        <div id="nachoLogo"></div>
+      </a>
 
-          <ul class="navbar-nav ml-auto text-right" id="menuLinks">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="favorites_list.html">Favorites</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about_us.html">About us</a>
-            </li>
-          </ul>
-          
-   
-        </div>  <!-- end of navbar toggler collapse div -->
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-          <span class="navbar-toggler-icon"></span>
+      <form class="form-inline mx-auto">
+        <input class="form-control form-control-sm" type="text" placeholder="Search..." id="formSearch">
+        <button class="btn btn-sm" type="submit" id="formSearchButton">
+          <i class="fa fa-search"></i>
         </button>
+      </form>
+
+      <div class="collapse navbar-collapse order-1" id="navbarSite">
+
+        <ul class="navbar-nav ml-auto text-right" id="menuLinks">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="favorites_list.html">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_us.html">About us</a>
+          </li>
+        </ul>
 
 
-      </div> <!-- End of header -->
-      
-    </div>   <!-- end of Menu container div -->
-    
-    
-  <div class="container py-3 px-5 mx-auto"> <!-- Content container -->
+      </div> <!-- end of navbar toggler collapse div -->
 
-    <div class="carousel slide mb-5" data-ride="carousel" id="principalCarousel">  <!-- Carousel start-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+    </div> <!-- End of header -->
+
+  </div> <!-- end of Menu container div -->
+
+
+  <div class="container py-3 px-5 mx-auto">
+    <!-- Content container -->
+
+    <div class="carousel slide mb-5" data-ride="carousel" id="principalCarousel">
+      <!-- Carousel start-->
 
       <ol class="carousel-indicators">
         <li data-target="#principalCarousel" data-slide-to="0" class="active"></li>
@@ -93,92 +101,102 @@
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#principalCarousel" role="button" data-slide="next">
-  
+
         <span class="carousel-control-next-icon"></span>
         <span class="sr-only">Next</span>
       </a>
-      
-    </div>  <!-- Carousel end -->
 
-    <div class="card-deck mb-5"> <!-- Cards start -->
+    </div> <!-- Carousel end -->
 
-        <div class="card">
-          <img class="card-img-top md-12" src="img/hobbitImg.png" id="firstCard">
-          <div class="card-body d-flex flex-column">
+    <div class="card-deck mb-5">
+      <!-- Cards start -->
 
-            <h4 class="card-title">To watch movies</h4>
-            <p class="card-text">See my annual movies list, ranging from old cults to children's animations and blockbuster action films.</p>
-            <a href="current_list.html" class="btn btn-primary mt-auto mx-auto">Say friend and enter</a>
-  
-          </div>
+      <div class="card">
+        <img class="card-img-top md-12" src="img/hobbitImg.png" id="firstCard">
+        <div class="card-body d-flex flex-column">
+
+          <h4 class="card-title">To watch movies</h4>
+          <p class="card-text">See my annual movies list, ranging from old cults to children's animations and
+            blockbuster action films.</p>
+          <a href="current_list.html" class="btn btn-primary mt-auto mx-auto">Say friend and enter</a>
+
         </div>
-  
-        <div class="card">
-          <img class="card-img-top" src="img/incrediblesImg.png" id="secondCard">
-          <div class="card-body d-flex flex-column">
+      </div>
 
-            <h4 class="card-title"> Favorites list</h4>
-            <p class="card-text">See the best films divided by category of any type.</p>
-            <a href="favorites_list.html" class="btn btn-primary mt-auto mx-auto"><i class="fa fa-heart" aria-hidden="true"></i> Let's go</a>
-  
-          </div>
+      <div class="card">
+        <img class="card-img-top" src="img/incrediblesImg.png" id="secondCard">
+        <div class="card-body d-flex flex-column">
+
+          <h4 class="card-title"> Favorites list</h4>
+          <p class="card-text">See the best films divided by category of any type.</p>
+          <a href="favorites_list.html" class="btn btn-primary mt-auto mx-auto"><i class="fa fa-heart"
+              aria-hidden="true"></i> Let's go</a>
+
         </div>
-  
-        <div class="card">
-          <img class="card-img-top" src="img/socialNetImg.png" id="thirdCard">
-          <div class="card-body d-flex flex-column">
+      </div>
 
-            <h4 class="card-title">Follow us !!</h4>
-            <p class="card-text">come see what we are producing on our social networks.</p>
-            <div class="row mt-auto">
-              <a href="https://twitter.com" class="btn btn-primary mx-auto btn-sm md-4 m-1" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Follow</a>
-              <a href="https://facebook.com" class="btn btn-primary mx-auto btn-sm md-4 m-1" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Like</a>
-              <a href="https://instagram.com" class="btn btn-primary mx-auto btn-sm md-4 m-1" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Follow</a>  
-            </div>
-           
+      <div class="card">
+        <img class="card-img-top" src="img/socialNetImg.png" id="thirdCard">
+        <div class="card-body d-flex flex-column">
+
+          <h4 class="card-title">Follow us !!</h4>
+          <p class="card-text">come see what we are producing on our social networks.</p>
+          <div class="row mt-auto">
+            <a href="https://twitter.com" class="btn btn-primary mx-auto btn-sm md-4 m-1" target="_blank"><i
+                class="fa fa-twitter-square" aria-hidden="true"></i> Follow</a>
+            <a href="https://facebook.com" class="btn btn-primary mx-auto btn-sm md-4 m-1" target="_blank"><i
+                class="fa fa-facebook-square" aria-hidden="true"></i> Like</a>
+            <a href="https://instagram.com" class="btn btn-primary mx-auto btn-sm md-4 m-1" target="_blank"><i
+                class="fa fa-instagram" aria-hidden="true"></i> Follow</a>
           </div>
+
+        </div>
       </div>
     </div> <!-- Cards end -->
 
   </div> <!-- Container content end -->
 
-  <footer class="bg-danger mt-auto text-light">  <!-- Footer start -->
-      <div class="container text-center" id="footerArea"> 
-        <div class="container">
-          <div class="row">
+  <footer class="bg-danger mt-auto text-light">
+    <!-- Footer start -->
+    <div class="container text-center" id="footerArea">
+      <div class="container">
+        <div class="row">
 
-            <div class="col-md-12 p-3 border-bottom border-light" id="footerLogo">
+          <div class="col-md-12 p-3 border-bottom border-light" id="footerLogo">
 
-              <img src="img/logo.png" class="img-fluid d-block m-auto">
+            <img src="img/logo.png" class="img-fluid d-block m-auto">
 
-            </div>      
+          </div>
 
-            <div class="col-md-6 contact-box border-bottom border-light">
-              <i class ="fa fa-envelope my-3"></i>
-              <p><span class="contact-title font-weight-bold text-success">E-mail: </span>candidoferreira.88@gmail.com</p>
-            </div>
-            <div class="col-md-6 contact-box border-bottom border-light">
-              <i class ="fa fa-instagram m-3"></i>
-              <p><span class="contact-title font-weight-bold text-success">Instagram: </span>candidoferreira</p>
-            </div>
+          <div class="col-md-6 contact-box border-bottom border-light">
+            <i class="fa fa-envelope my-3"></i>
+            <p><span class="contact-title font-weight-bold text-success">E-mail: </span>candidoferreira.88@gmail.com</p>
+          </div>
+          <div class="col-md-6 contact-box border-bottom border-light">
+            <i class="fa fa-instagram m-3"></i>
+            <p><span class="contact-title font-weight-bold text-success">Instagram: </span>candidoferreira</p>
           </div>
         </div>
       </div>
-      <div class="text-center mb-0" id="copyArea">
-        <div class="container pt-3">
-          <div class="row">
-            <div class="col-md-12">
+    </div>
+    <div class="text-center mb-0" id="copyArea">
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-md-12">
 
-              <p>Developed by <a class="font-weight-bold text-success text-decoration-none" href="https://github.com/candido123somente" target="_blank">Candido Ferreira</a> &copy; 2020</p>
+            <p>Developed by <a class="font-weight-bold text-success text-decoration-none"
+                href="https://github.com/candido123somente" target="_blank">Candido Ferreira</a> &copy; 2020</p>
 
-            </div>
           </div>
         </div>
       </div>
+    </div>
   </footer> <!-- Footer end -->
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-     </body>
+  
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>
