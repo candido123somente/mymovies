@@ -78,21 +78,10 @@ body {
 }
 
 .contact-box i {
-    border: solid 1px #fffafa;
-    border-radius: 50%;
     width: 45px;
     height: 45px;
     line-height: 45px;
     font-size: 20px;
 
 }
-
-.contact-box p {
-    font-size: 14px;
-}
-
-#copyArea {
-    font-size: 14px;
-}
-
 /* END FOOTER */
