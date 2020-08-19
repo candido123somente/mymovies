@@ -25,12 +25,8 @@ body {
 
 #formSearch {
     border-radius: 20px;
-    background-color: #fffafa;
-    border: 1px solid #777777;
     width: 30vw;
     max-width: 250px;
-    padding-right: 28px;
-    padding-left: 15px;
 }
 
 #formSearch:focus {
@@ -40,15 +36,8 @@ body {
 #formSearchButton {
     width: 25px;
     height: 25px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 100);
-    border: 0;
     margin-left: -30px;
     padding: 1px 5px 15px 1px;
-}
-
-#formSearchButton i {
-    color: black;
 }
 
 #formSearchButton:focus {
