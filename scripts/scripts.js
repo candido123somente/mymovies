@@ -1,4 +1,6 @@
 (function ($) {
+    $('[data-toggle="tooltip"]').tooltip(); // enable all tooltips
+
     "use strict";
     var main_wind = $(window);
 
